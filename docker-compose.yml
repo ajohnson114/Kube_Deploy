@@ -1,0 +1,17 @@
+version: "3.12" # optional since v1.27.0 
+services:
+  web:
+    build: 
+      context: . #find the dockerfile in the cd
+      dockerfile: Dockerfile #if the dockerfile isn't named Dockerfile you can specify here
+    image: dockerforaj/webapp:2.0
+    ports:
+      - "80:80"
+    restart: always
+    networks: 
+      - webnet
+
+networks:
+  webnet:
+
+      
