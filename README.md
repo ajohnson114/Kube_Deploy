@@ -1,13 +1,14 @@
-# Simple_App
-Deploying something with Flask, Docker, Kubernetes, and more
+# A Kubernetes 101 project
+Summary:
+Deployed a simple web page with Flask, Docker, Kubernetes, and more
 
-- Installing Python 3.X
-- Ceating Python Virtual Environments
-- Installing Python VS Code Extension
-- Sample Flask Application
-- Jinja templating for Dynamic Web Pages
-- Using Pip to Freeze Python Dependencies
-- Building the docker image using Dockerfile
-- Writing Docker Compose file
-- Writing Kubernetes Manifest files for the application
-- Creating Helm Chart
+Steps I took:
+- Installed Python 3.X
+- Created Python Virtual Environments
+- Made Flask Application
+- Made Jinja templating for Dynamic Web Pages
+- Used Pip to Freeze Python Dependencies
+- Built the docker image using Dockerfile
+- Wrote Docker Compose file
+- Wrote Kubernetes Manifest files for the application
+- Created Helm Chart
